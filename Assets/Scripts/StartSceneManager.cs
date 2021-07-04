@@ -17,6 +17,10 @@ public class StartSceneManager : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(1);
+    }
+
+    public void LoadScene(string sceneName) {
+        SceneManager.LoadScene(sceneName);
     }
 }
