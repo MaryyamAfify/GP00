@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 25abc6dc398ad114aa0e5c9437a8bea0
   - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 97df38fe5c315b84cafa259f50cc88c1
+  - enabled: 1
     path: Assets/Scenes/AR Scene.unity
     guid: 5284a724a66e2f54a951f6a4f4407360
   m_configObjects:
