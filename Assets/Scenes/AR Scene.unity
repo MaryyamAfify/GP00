@@ -550,6 +550,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1605372169071406409, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -432
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605372169071406409, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429786202673889549, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429786202673889549, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973124772833062303, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973124772833062303, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
     - target: {fileID: 5932310608637239329, guid: f6f8b6bed21c55046ba4d8d8ffeb1e0f,
         type: 3}
       propertyPath: m_UiScaleMode
