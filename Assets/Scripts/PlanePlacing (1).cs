@@ -5,7 +5,6 @@ using UnityEngine.XR.ARFoundation;
 
 public class PlanePlacing : MonoBehaviour
 {
-
     [SerializeField] private GameObject placingPerfap;
     [SerializeField] private GameObject planeTraget;
     [SerializeField] private GameObject objectToPlaceParent;
