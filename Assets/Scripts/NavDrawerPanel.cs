@@ -307,7 +307,7 @@ namespace NavigationDrawer.UI
                 _backgroundRectTransform.localPosition = new Vector2(-(_rectTransform.rect.width / 2), 0);
             }
         }
-
+        
         private Vector2 QuintOut(Vector2 startValue, Vector2 endValue, float time, float duration)
         {
             var tempVector2 = startValue;
