@@ -17,3 +17,5 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: eddfbcbbca383f74c96e92e9894a94c2,
       type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b61a4d2eab350f94cafd005e5e5eff90,
+      type: 2}
