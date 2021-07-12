@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 25975995}
   - component: {fileID: 25975994}
   m_Layer: 5
-  m_Name: design_menu
+  m_Name: CheckCapacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.48912504, y: 0.5}
   m_AnchorMax: {x: 0.48912504, y: 0.5}
-  m_AnchoredPosition: {x: 5.2207, y: -337.02}
-  m_SizeDelta: {x: 346.1776, y: 112.701324}
+  m_AnchoredPosition: {x: 12.296, y: -477.36}
+  m_SizeDelta: {x: 346.1776, y: 95.930786}
   m_Pivot: {x: 0.49999988, y: 0.52587193}
 --- !u!114 &25975994
 MonoBehaviour:
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 819585234}
   - component: {fileID: 819585233}
   m_Layer: 5
-  m_Name: Check_Capacity
+  m_Name: DesignMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -696,7 +696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.48912504, y: 0.5}
   m_AnchorMax: {x: 0.48912504, y: 0.5}
-  m_AnchoredPosition: {x: 7.9684, y: -461.89}
+  m_AnchoredPosition: {x: 4.9814, y: -346.41}
   m_SizeDelta: {x: 331.54797, y: 100.123474}
   m_Pivot: {x: 0.49999988, y: 0.52587193}
 --- !u!114 &819585233
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Check Capacity
+  m_text: Designs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1622,8 +1622,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1728,7 +1728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Designs
+  m_text: Chech Capacity
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1755,8 +1755,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
