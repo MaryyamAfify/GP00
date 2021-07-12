@@ -137,8 +137,6 @@ public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
         var planeFound = hits.Count > 0;
         if (planeFound)
         {
-           
-            
             var cameraForward = arCamera.transform.forward;
             var cameraBarrier = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             ARPlane ARP = arPlane.GetPlane(hits[0].trackableId);
