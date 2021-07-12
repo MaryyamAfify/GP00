@@ -145,7 +145,7 @@ public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
             float area = ARP.size.x * ARP.size.y;
             float maxNum = area / unitSize;
             maxNum = Mathf.Floor(maxNum);
-            capTxt.text = $" - -{maxNum}";
+            capTxt.text = $" -The Maximum Number is: -{maxNum}";
         }
     }
     public void HandleLines(GameObject obj) {
