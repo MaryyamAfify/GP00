@@ -5,9 +5,12 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.EventSystems;
 public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
 {
+    [SerializeField] Text capTxt;
+    [SerializeField]
+    float unitSize;
     [SerializeField]
     private GameObject placedPrefab;
-
+    [SerializeField] private ARPlaneManager arPlane;
     [SerializeField] FlexibleColorPicker fcp;
     [SerializeField] ColorChanger changer;
     [SerializeField]
@@ -114,7 +117,7 @@ public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
 
             if (lastSelectedObject == null)
             {
-                lastSelectedObject = Instantiate(placedPrefab, hitPose.position, hitPose.rotation).GetComponent<PlacementObject>();
+                lastSelectedObject = Instantiate(placedPrefab, hitPose.position, hitPose.rotation).GetComponent<PlacementObject>();//
                 HandleLines(lastSelectedObject.gameObject);
             }
             else
@@ -127,7 +130,24 @@ public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
             }
         }
     }
-
+    public void CalculateMaxCap() {
+        var hits = new List<ARRaycastHit>();
+        var screenCenter = arCamera.ViewportToScreenPoint(new Vector2(0.5f, 0.5f));
+        arRaycastManager.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
+        var planeFound = hits.Count > 0;
+        if (planeFound)
+        {
+           
+            
+            var cameraForward = arCamera.transform.forward;
+            var cameraBarrier = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
+            ARPlane ARP = arPlane.GetPlane(hits[0].trackableId);
+            float area = ARP.size.x * ARP.size.y;
+            float maxNum = area / unitSize;
+            maxNum = Mathf.Floor(maxNum);
+            capTxt.text = $" - -{maxNum}";
+        }
+    }
     public void HandleLines(GameObject obj) {
         LineHandler line = obj.GetComponent<LineHandler>();
         if (line == null) return;
