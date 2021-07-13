@@ -35,7 +35,7 @@ public class DrawLine : MonoBehaviour
         LineRenderer = GetComponent<LineRenderer>();
         LineRenderer.SetPosition(0, Test.transform.position);
         LineRenderer.SetWidth(.25f, .25f);
-        LineRenderer.SetWidth(.25f, .25f);
+       
 
         distance = Vector3.Distance(Test.transform.position, Test2.transform.position);
         isStart = true;
