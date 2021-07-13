@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   capTxt: {fileID: 244551341}
-  unitSize: 0
+  unitSize: 1
   placedPrefab: {fileID: 0}
   arPlane: {fileID: 900918189}
   fcp: {fileID: 1448212365}
