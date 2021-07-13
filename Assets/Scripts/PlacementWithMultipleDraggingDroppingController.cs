@@ -3,9 +3,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.EventSystems;
+using TMPro;
+
 public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
 {
-    [SerializeField] Text capTxt;
+    [SerializeField] TextMeshProUGUI capTxt;
     [SerializeField]
     float unitSize;
     [SerializeField]
