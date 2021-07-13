@@ -369,7 +369,7 @@ MonoBehaviour:
   capTxt: {fileID: 244551341}
   unitSize: 0
   placedPrefab: {fileID: 0}
-  arPlane: {fileID: 0}
+  arPlane: {fileID: 900918189}
   fcp: {fileID: 1448212365}
   changer: {fileID: 661411095}
   arCamera: {fileID: 1043472230}
